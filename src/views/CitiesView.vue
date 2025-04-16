@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-4">
+  <div class="container" style="width: 100%;">
     <h1 class="text-center mb-4">Cities Management</h1>
     <div class="d-flex justify-content-between mb-3">
       <button class="btn btn-success" @click="openCreateCityModal">Create City</button>
@@ -208,7 +208,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Add styles specific to this view */
-</style>

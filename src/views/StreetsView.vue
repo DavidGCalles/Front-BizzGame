@@ -9,7 +9,3 @@
 <script setup>
 // Add any necessary logic here
 </script>
-
-<style scoped>
-/* Add styles specific to this view */
-</style>
