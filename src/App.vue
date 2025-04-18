@@ -4,7 +4,6 @@ import { RouterView } from 'vue-router';
 import { pingServer } from './api';
 import Navbar from './components/SiteNavbar.vue';
 
-const user = ref(null);
 const pingResult = ref('');
 
 const handlePing = async () => {

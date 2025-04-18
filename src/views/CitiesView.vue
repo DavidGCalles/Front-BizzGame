@@ -134,7 +134,9 @@ export default {
     },
     async saveCityChanges(updatedCity) {
       try {
-        await axios.patch(`http://192.168.1.78:5000/city/${updatedCity.id}`, updatedCity);
+        let city_id = updatedCity.id;
+        delete updatedCity.id; // Remove the id from the object to avoid sending it in the request body
+        await axios.patch(`http://192.168.1.78:5000/city/${city_id}`, updatedCity);
         alert("City updated successfully.");
         this.fetchCities();
         this.showEditModal = false;
