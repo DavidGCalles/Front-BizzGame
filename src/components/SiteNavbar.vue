@@ -33,6 +33,9 @@
               <li>
                 <RouterLink class="dropdown-item" to="/admin-menu/streets">Streets</RouterLink>
               </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/admin-menu/customers">Customers</RouterLink>
+              </li>
             </ul>
           </li>
         </ul>
